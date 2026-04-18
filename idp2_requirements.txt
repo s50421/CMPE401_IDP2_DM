@@ -1,0 +1,106 @@
+CMPE 401 
+ 
+ 
+ 
+ 1 of 3  
+ 
+CMPE 401  Instructor-defined Project 2 
+ 
+Time Series Modeling with Deep Learning: Classification using 
+Transformer and Forecasting using LSTM 
+ 
+1. Project Title 
+Understand, Organize Time Series Modeling Benchmark for Classification and Forecasting 
+________________________________________________________________________________ 
+2.  Background & Motivation 
+Time-series data appears in many engineering and real-world applications, such as  
+• weather monitoring 
+• industrial sensing 
+• health signals 
+• traffic analysis 
+• activity recognition 
+This project focuses on organizing, running, analyzing, and improving two official Keras time-series. 
+One is a time-series classification problem solved with a Transformer model, and the other is a time -
+series forecasting problem solved with an LSTM model. 
+ 
+You do not need to develop a new dataset, or a new model. Instead, you are expected to: 
+• understand the datasets and code structure, 
+• reproduce the baseline results, 
+• organize the project clearly, 
+• make at least three meaningful improvements, 
+• run a small benchmark, 
+• and answer questions about the project. 
+________________________________________________________________________________ 
+3. Project Objectives 
+By completing this project, students should be able to: 
+1) understand the difference between time-series classification and time-series forecasting; 
+2) understand the difference between a Transformer-based model and an LSTM-based model; 
+3) reproduce and run official Keras examples correctly; 
+4) explain the dataset, model input, output, training process, and evaluation metrics; 
+5) perform a small benchmark or comparison through controlled changes; 
+6) make one reasonable improvement to one of the provided baselines; 
+7) organize results and baselines into a clean README-style project via Github. 
+ 
+ CMPE 401 
+ 
+ 
+ 
+ 2 of 3  
+ 
+4.  Project Resources 
+This project is based on two official Keras time-series examples. 
+• Transformer Classification 
+Keras page: https://keras.io/examples/timeseries/timeseries_classification_transformer/ 
+Colab:https://colab.research.google.com/github/keras-team/keras-
+io/blob/master/examples/timeseries/ipynb/timeseries_classification_transformer.ipynb 
+• LSTM Forecasting 
+Keras page: https://keras.io/examples/timeseries/timeseries_weather_forecasting/ 
+Colab:https://colab.research.google.com/github/keras-team/keras-
+io/blob/master/examples/timeseries/ipynb/timeseries_weather_forecasting.ipynb 
+ 
+Students are not required to implement models from scratch or perform complex deployment. 
+Students can use the provided Keras  examples in Google colab as the starting point (Run All) 
+and organize their work into a clear and well-organized benchmark project summary. 
+________________________________________________________________________________ 
+5. Required Project Tasks 
+Task 1 — Reproduce the Baseline 
+For both provided code, students must: 
+• execute the code successfully; 
+• train the provided baseline model; 
+• record the observations. 
+Task 2 — Improvement Task 
+Students must choose ONE of the two codes and make at least THREE meaningful modifications. 
+Examples of acceptable improvements: 
+• change the number of Transformer blocks; 
+• change attention head size or number of heads; 
+• change dropout; 
+• change LSTM hidden size; 
+• stack two LSTM layers; 
+• change the input sequence length; 
+• compare different batch sizes or learning rates. 
+Task 3 — Benchmark / README Organization 
+Students must organize their project reflection into a structured benchmark-style summary. 
+Task 4 — Questions 
+Students must answer these questions in their summary: 
+• Which model did you find easier to understand and why?  
+• What improvement did you try, and what did you learn from it? 
+____________________________________________________________ CMPE 401 
+ 
+ 
+ 
+ 3 of 3  
+ 
+6. Project Summary 
+This project explores two fundamental deep learning approaches for time -series modeling using 
+official Keras examples. The first applies a Transformer model for time -series classification on the 
+FordA dataset, while the second uses an LSTM model for weathe r forecasting on the Jena Climate 
+dataset. 
+Through this project, students will: 
+• learn how to work with sequence data,  
+• understand the differences between classification and forecasting problems,  
+• explore Transformer and LSTM architectures,  
+• reproduce baseline results,  
+• and evaluate simple model improvements. 
+The goal is to help students gain practical experience with modern time-series deep learning methods 
+in a structured and accessible way. 
+ 

@@ -1,0 +1,7 @@
+venv/
+.venv/
+__pycache__/
+*.csv
+*.h5
+raw.githubusercontent.com/
+scratch/
