@@ -1,6 +1,6 @@
 # CMPE 401 Instructor-Defined Project 2: Time Series Modeling with Deep Learning
 
-## 1. Project Title
+## 1. Project
 **Understand, Organize Time Series Modeling Benchmark for Classification and Forecasting**
 
 ## 2. Background & Motivation
@@ -112,7 +112,7 @@ The plot below shows the raw time-series input next to the expected Ground Truth
 Taking inspiration from the LSTM Weather Forecasting setup, we can compare how sequence data is handled:
 
 **1. Which model did you find easier to understand and why?**
-> The **LSTM model** is way more intuitive for time-series stuff. It explicitly models time by processing timesteps sequentially and carrying a hidden state forward (which is basically how humans think about weather progression). The Transformer, on the other hand, just looks at the entire sequence of 500 timesteps all at once. While `GlobalAveragePooling1D(data_format="channels_first")` eventually grabs the attention weights across the timesteps, conceptually mapping multi-head attention to 1D signals is mathematically dense compared to the natural, step-by-step flow of recurrent networks.
+> The **LSTM model** is way more intuitive for time-series data. It explicitly models time by processing timesteps sequentially and carrying a hidden state forward (which is basically how humans think about weather progression). The Transformer, on the other hand, just looks at the entire sequence of 500 timesteps all at once. While `GlobalAveragePooling1D(data_format="channels_first")` eventually grabs the attention weights across the timesteps, conceptually mapping multi-head attention to 1D signals is mathematically dense compared to the natural, step-by-step flow of recurrent networks.
 
 **2. What improvement did you try, and what did you learn from it?**
 > I wrote a fully automated **Experimental Tuning pipeline** that systematically evaluated 5 distinct Transformer configurations (Baseline, Wider Attention, Deeper Network, Deep & Wide, and Lightweight) while automatically collecting test metrics and generating comparative visualizations. 
